@@ -1,0 +1,17 @@
+import React from 'react'
+import CollapsibleExample from '../Components/Navbar'
+import Footer from '../Components/Footer'
+import HeroImg2 from '../Components/HeroImg2'
+import Form from '../Components/Form'
+const Contact = () => {
+  return (
+    <div>
+      <CollapsibleExample/>
+      <HeroImg2 heading="CONTACT" text="Lets have a chat"/>
+      <Form/>
+      <Footer/>
+    </div>
+  )
+}
+
+export default Contact
